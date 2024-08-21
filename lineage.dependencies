@@ -1,0 +1,10 @@
+[
+    {
+        "repository":   "alphadroid-devices/kernel_xiaomi_ginkgo",
+        "target_path":  "kernel/xiaomi/ginkgo"
+    },
+    {
+        "repository":   "alphadroid-devices/vendor_xiaomi_ginkgo",
+        "target_path":  "vendor/xiaomi/ginkgo"
+    }
+]
