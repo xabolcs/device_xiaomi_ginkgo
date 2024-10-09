@@ -14,6 +14,9 @@ $(call inherit-product, vendor/xiaomi/ginkgo/ginkgo-vendor.mk)
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
+# Sign Build with calyx-priv/keys
+-include vendor/calyx-priv/keys/keys.mk
+
 # APN
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
 
