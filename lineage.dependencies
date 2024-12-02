@@ -6,5 +6,10 @@
     {
         "repository":   "alphadroid-devices/vendor_xiaomi_ginkgo",
         "target_path":  "vendor/xiaomi/ginkgo"
+    },
+    {
+        "repository":   "ArrowOS-Devices/android_vendor_miuicamera",
+        "branch":      "arrow-12.0-a3",
+        "target_path":  "vendor/miuicamera"
     }
 ]
